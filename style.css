@@ -42,6 +42,18 @@
   height: 50px;
 }
 
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item1 > h1 {
+  background-color: orange;
+  padding: 20px;
+  flex: 1;
+}
+
 /*How The Site Would be sTYLED oN mOBILE*/
 @media screen and (max-width: 768px) {
   .nav-links {
